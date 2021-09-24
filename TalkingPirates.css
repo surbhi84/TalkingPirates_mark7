@@ -12,3 +12,22 @@ header {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: grey;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./media/back-pirate.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+textarea {
+  width: 50vw;
+  height: 25vh;
+  background-color: rgb(196, 192, 192);
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 0.15rem solid black;
+  margin: 1rem;
+}
