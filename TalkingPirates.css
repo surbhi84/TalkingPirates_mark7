@@ -13,6 +13,12 @@ header {
   -webkit-text-stroke-color: grey;
 }
 
+#head-img {
+  height: 5rem;
+  width: 7rem;
+  padding: 1rem;
+}
+
 body {
   display: flex;
   flex-direction: column;
