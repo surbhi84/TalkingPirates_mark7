@@ -47,3 +47,15 @@ textarea {
   transform: scale(1.1);
   color: rgb(37, 93, 107);
 }
+
+#output-div {
+  width: 50vw;
+  height: 25vh;
+  color: grey;
+  font-family: "pirataOne";
+  background-color: black;
+  border: 0.2rem solid grey;
+  border-radius: 8px;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
