@@ -59,3 +59,23 @@ textarea {
   margin: 1rem;
   font-size: 1.3rem;
 }
+
+@media screen and (max-width: 480px) {
+  header {
+    justify-content: space-around;
+    padding-left: 1rem;
+  }
+  #head-img {
+    padding: 0.2rem;
+    height: 8rem;
+    width: 10rem;
+  }
+  textarea {
+    width: 60vw;
+    height: 18vh;
+  }
+  #output-div {
+    width: 60vw;
+    height: 18vh;
+  }
+}
