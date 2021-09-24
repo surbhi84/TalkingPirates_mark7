@@ -31,3 +31,19 @@ textarea {
   border: 0.15rem solid black;
   margin: 1rem;
 }
+
+#translate-btn {
+  background-color: grey;
+  font-size: 1.8rem;
+  font-family: "PirataOne";
+  border-radius: 8px;
+  border: 0.2rem solid black;
+  height: 4rem;
+  width: 8rem;
+  margin: 1rem;
+}
+
+#translate-btn:hover {
+  transform: scale(1.1);
+  color: rgb(37, 93, 107);
+}
