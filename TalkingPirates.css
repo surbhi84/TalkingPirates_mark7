@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "PirataOne";
+  src: url("./media/PirataOne-Regular.ttf");
+}
+
 html {
   min-height: 100vh;
 }
