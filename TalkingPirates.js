@@ -4,6 +4,8 @@ output = document.querySelector("#output-div");
 
 var url = "https://api.funtranslations.com/translate/pirate.json";
 
+output.style.display = "none";
+
 translateBtn.addEventListener("click", eventHandler);
 
 function eventHandler() {
