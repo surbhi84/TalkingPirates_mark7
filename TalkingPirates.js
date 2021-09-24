@@ -18,3 +18,7 @@ function eventHandler() {
     })
     .catch(errorHandler);
 }
+
+function constructUrl(text) {
+  return url + "?" + "text=" + text;
+}
